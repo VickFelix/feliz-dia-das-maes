@@ -1,0 +1,76 @@
+
+@font-face {
+    font-family: mothers-day-message-font;
+    src: url(../fonts/Redressed-Regular.ttf);
+}
+
+body{
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+#main-flower-display{
+    overflow: hidden;
+}
+
+.main-h1{
+    color: #8f8277;
+}
+
+ul#flower-display{
+    height: 85vh;
+    padding: 0px;
+    margin: auto;
+    max-width: 500px;
+    display: flex;
+}
+
+ul#flower-display li{
+    transform-origin: center center;
+    overflow: hidden;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    height: 50vh;
+    margin-top: 30vh;
+    width: 20%;
+}
+
+ul#flower-display li img{
+    margin-top: 5vw;
+    width: 100%;
+}
+
+#mothers-day-message{
+    font-family: mothers-day-message-font;
+    position: relative;
+    color: #8f8277;
+    height: 70vh;
+    vertical-align: middle;
+    display: none;
+}
+
+#mothers-day-message-wrapper{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#click-message{
+    text-align: center;
+    transition: opacity .5s;
+    font-family: mothers-day-message-font;
+}
+
+h2{
+    text-align: center;
+    font-size: calc(20px + 2vw);
+}
+
+.mother-message-h2{
+    margin-bottom: 40px;
+}
